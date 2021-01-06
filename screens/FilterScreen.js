@@ -22,7 +22,6 @@ const FilterSwitch = props =>{
         }
 const FilterScreen = props => {
     const {navigation} = props
-    console.log(props);
     const [isGlutenFree, setIsGlutenFree] = useState(false)
     const [isVeganFree, setIsVeganFree] = useState(false)
     const [isLactoseFree, setLactoseFree] = useState(false)
